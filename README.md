@@ -1,29 +1,18 @@
-# Centivo API – Node.js + MongoDB REST API
+# Centivo API – Node.js + MongoDB
 
-This project is a simple Express-based REST API built using Node.js and MongoDB. It includes functionality to fetch a user by ID and return data only if the user's age is over 21.
+## 🧠 Approach
 
----
-
-## 📁 Project Files
-
-> 🔽 All source files are available inside the ZIP file uploaded in this repository.
-
-To view the contents:
-1. Download the ZIP file from the repository.
-2. Extract the files using any ZIP utility (e.g., WinRAR, macOS Archive Utility).
-3. You’ll find:
-   - `index.js` – Main server file
-   - `.env` – Environment config file (MongoDB URI + port)
-   - `models/user.js` – Mongoose schema
-   - `routes/user.js` – Express route to fetch users
-   - `package.json` – Project config and dependencies
+This project implements a RESTful API using Node.js and Express, backed by MongoDB Atlas for data persistence. The logic retrieves a user by their unique ID and conditionally returns the data only if the user's age is greater than 21. The app uses Mongoose for schema modeling and `.env` configuration for clean, environment-specific settings.
 
 ---
 
-## 🚀 How to Run
+## 📁 How to Access Project Files
 
-> Make sure Node.js and npm are installed locally.
+The complete source code is provided in a ZIP file inside this repository.  
+To access it:
 
-### 1. Install dependencies
-```bash
-npm install
+1. [Click here to download the ZIP file](./centivo-api.zip)
+2. Extract the file using any archive manager (WinRAR, 7-Zip, macOS Archive Utility)
+3. Inside you'll find the full project folder with the following structure:
+
+
